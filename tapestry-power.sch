@@ -406,13 +406,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J3
 U 1 1 60BAB04D
-P 9600 1950
-F 0 "J3" H 9518 2167 50  0000 C CNN
-F 1 "5V" H 9518 2076 50  0000 C CNN
-F 2 "libs:p2034a-dinkle-2-way-5mm" H 9600 1950 50  0001 C CNN
-F 3 "~" H 9600 1950 50  0001 C CNN
-	1    9600 1950
-	-1   0    0    -1  
+P 9600 2050
+F 0 "J3" H 9518 2267 50  0000 C CNN
+F 1 "5V" H 9518 2176 50  0000 C CNN
+F 2 "libs:p2034a-dinkle-2-way-5mm" H 9600 2050 50  0001 C CNN
+F 3 "~" H 9600 2050 50  0001 C CNN
+	1    9600 2050
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0108
@@ -433,4 +433,70 @@ Wire Wire Line
 	9900 2050 9800 2050
 Text Label 3300 1750 0    50   ~ 0
 VHIGH
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 60E03B62
+P 10050 3350
+F 0 "FID1" H 10135 3396 50  0000 L CNN
+F 1 "Fiducial" H 10135 3305 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 10050 3350 50  0001 C CNN
+F 3 "~" H 10050 3350 50  0001 C CNN
+	1    10050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 60E048E3
+P 10050 3550
+F 0 "FID2" H 10135 3596 50  0000 L CNN
+F 1 "Fiducial" H 10135 3505 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 10050 3550 50  0001 C CNN
+F 3 "~" H 10050 3550 50  0001 C CNN
+	1    10050 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 60E04EC7
+P 10050 3750
+F 0 "FID3" H 10135 3796 50  0000 L CNN
+F 1 "Fiducial" H 10135 3705 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 10050 3750 50  0001 C CNN
+F 3 "~" H 10050 3750 50  0001 C CNN
+	1    10050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60E05B16
+P 10050 4250
+F 0 "H1" H 10150 4296 50  0000 L CNN
+F 1 "MountingHole" H 10150 4205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10050 4250 50  0001 C CNN
+F 3 "~" H 10050 4250 50  0001 C CNN
+	1    10050 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60E06302
+P 10050 4450
+F 0 "H2" H 10150 4496 50  0000 L CNN
+F 1 "MountingHole" H 10150 4405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10050 4450 50  0001 C CNN
+F 3 "~" H 10050 4450 50  0001 C CNN
+	1    10050 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60E15611
+P 10050 4700
+F 0 "H3" H 10150 4746 50  0000 L CNN
+F 1 "HoP Graphic" H 10150 4655 50  0000 L CNN
+F 2 "libs:HoP_logo" H 10050 4700 50  0001 C CNN
+F 3 "~" H 10050 4700 50  0001 C CNN
+	1    10050 4700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
